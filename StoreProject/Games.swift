@@ -11,9 +11,28 @@ import SwiftUI
 
 struct GamesView: View {
     var body: some View {
-        Text("Hello, World!")
+        ScrollView{
+        VStack(alignment: .leading){
+        HStack{
+            VStack(alignment: .leading){
+                Text("Games").font(Font.largeTitle).bold()
+        }
+            Spacer()
+            Image("Profile").resizable().frame(width: 40, height: 35, alignment: .trailing)
+            }.padding()
+            ScrollView(.horizontal, showsIndicators: false, content: {
+                HStack{
+                FeaturedView(headerText: "Featured Content", titleText: "Witcher 3: Mobile", subText: "I wish this was real", image: "witcher")
+                FeaturedView(headerText: "Featured Content", titleText: "Witcher 3: Mobile", subText: "I wish this was real", image: "witcher")
+                FeaturedView(headerText: "Featured Content", titleText: "Witcher 3: Mobile", subText: "I wish this was real", image: "witcher")
+                FeaturedView(headerText: "Featured Content", titleText: "Witcher 3: Mobile", subText: "I wish this was real", image: "witcher")
+                }
+            })
+        }
     }
 }
+}
+
 
 struct GamesView_Previews: PreviewProvider {
     static var previews: some View {

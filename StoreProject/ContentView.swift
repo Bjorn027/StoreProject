@@ -16,10 +16,10 @@ struct ContentView: View {
         TabView(selection: $selected){
             TodayView().tabItem{
                 Text("Today")
-            }
+            }.tag(0)
             GamesView().tabItem{
                 Text("Games")
-            }
+            }.tag(1)
         }
     }
 }
