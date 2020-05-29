@@ -10,6 +10,7 @@ import Foundation
 import SwiftUI
 
 struct TodayView: View {
+    
     var body: some View {
         ScrollView{
             VStack(alignment: .leading){
