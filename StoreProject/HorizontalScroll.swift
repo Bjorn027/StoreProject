@@ -38,9 +38,9 @@ struct GameCell : View {
             Image(data.image).resizable().frame(width: 60, height: 60, alignment: .leading).cornerRadius(10)
             VStack(alignment: .leading){
                 Text(data.name)
-                Text(data.subtitle)
+                Text(data.subtitle).font(.subheadline)
             }
-        }.padding().frame(width: 300, alignment: .leading)
+        }.padding(8).frame(width: 300, alignment: .leading)
     }
 }
 
