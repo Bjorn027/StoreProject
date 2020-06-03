@@ -37,10 +37,17 @@ struct GameCell : View {
         HStack{
             Image(data.image).resizable().frame(width: 60, height: 60, alignment: .leading).cornerRadius(10)
             VStack(alignment: .leading){
-                Text(data.name)
-                Text(data.subtitle).font(.subheadline)
+                Text(data.name).font(Font.system(size: 20))
+                Text(data.subtitle).font(.subheadline).foregroundColor(.gray)
             }
-        }.padding(8).frame(width: 300, alignment: .leading)
+            Spacer()
+            VStack(spacing: 5){
+                Button(action: self.get, label: {Text("Get").padding(EdgeInsets.init(top:3, leading: 30, bottom: 3, trailing: 30))}).background(Color.gray.opacity(0.2))
+            }
+        }.padding(5).frame(width: 380, alignment: .leading).border(Color.gray.opacity(0.5))
+    }
+    func get(){
+        
     }
 }
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		294E358D24801D8800F2DD29 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E358C24801D8800F2DD29 /* Games.swift */; };
 		2979380F24817903009AA9B1 /* featured.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979380E24817903009AA9B1 /* featured.swift */; };
 		2979381124856326009AA9B1 /* HorizontalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979381024856326009AA9B1 /* HorizontalScroll.swift */; };
+		297938142487FD72009AA9B1 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 297938132487FD72009AA9B1 /* Pages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297938142487FD72009AA9B1 /* Pages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +169,9 @@
 			dependencies = (
 			);
 			name = StoreProject;
+			packageProductDependencies = (
+				297938132487FD72009AA9B1 /* Pages */,
+			);
 			productName = StoreProject;
 			productReference = 294E355524801A4800F2DD29 /* StoreProject.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 294E354C24801A4800F2DD29;
+			packageReferences = (
+				297938122487FD72009AA9B1 /* XCRemoteSwiftPackageReference "Pages" */,
+			);
 			productRefGroup = 294E355624801A4800F2DD29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -608,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		297938122487FD72009AA9B1 /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nachonavarro/Pages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		297938132487FD72009AA9B1 /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 297938122487FD72009AA9B1 /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 294E354D24801A4800F2DD29 /* Project object */;
 }
