@@ -21,6 +21,8 @@
 		2979380F24817903009AA9B1 /* featured.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979380E24817903009AA9B1 /* featured.swift */; };
 		2979381124856326009AA9B1 /* HorizontalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979381024856326009AA9B1 /* HorizontalScroll.swift */; };
 		297938142487FD72009AA9B1 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 297938132487FD72009AA9B1 /* Pages */; };
+		297938162489561D009AA9B1 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297938152489561D009AA9B1 /* Favourites.swift */; };
+		2979381824895DA2009AA9B1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979381724895DA2009AA9B1 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		294E358C24801D8800F2DD29 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 		2979380E24817903009AA9B1 /* featured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featured.swift; sourceTree = "<group>"; };
 		2979381024856326009AA9B1 /* HorizontalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScroll.swift; sourceTree = "<group>"; };
+		297938152489561D009AA9B1 /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		2979381724895DA2009AA9B1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				294E355824801A4800F2DD29 /* AppDelegate.swift */,
 				294E355A24801A4800F2DD29 /* SceneDelegate.swift */,
 				294E355C24801A4800F2DD29 /* ContentView.swift */,
+				297938152489561D009AA9B1 /* Favourites.swift */,
+				2979381724895DA2009AA9B1 /* Data.swift */,
 				294E358824801A7200F2DD29 /* Today.swift */,
 				294E358A24801A8100F2DD29 /* TabBar.swift */,
 				294E358C24801D8800F2DD29 /* Games.swift */,
@@ -291,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				294E355924801A4800F2DD29 /* AppDelegate.swift in Sources */,
+				2979381824895DA2009AA9B1 /* Data.swift in Sources */,
 				2979380F24817903009AA9B1 /* featured.swift in Sources */,
 				2979381124856326009AA9B1 /* HorizontalScroll.swift in Sources */,
 				294E355B24801A4800F2DD29 /* SceneDelegate.swift in Sources */,
@@ -298,6 +305,7 @@
 				294E358D24801D8800F2DD29 /* Games.swift in Sources */,
 				294E358924801A7200F2DD29 /* Today.swift in Sources */,
 				294E358B24801A8100F2DD29 /* TabBar.swift in Sources */,
+				297938162489561D009AA9B1 /* Favourites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

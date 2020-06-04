@@ -20,7 +20,13 @@ struct ContentView: View {
             GamesView().tabItem{
                 Text("Games")
             }.tag(1)
+            FavouritesView().tabItem{
+                Text("Favourites")
+            }.tag(2)
         }
+        .onAppear() {
+            UITabBar.appearance().backgroundColor = .green
+        }.accentColor(.red)
     }
 }
 
