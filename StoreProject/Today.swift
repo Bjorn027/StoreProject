@@ -24,7 +24,9 @@ struct TodayView: View {
                 HighlightView(catagory: "Picturesque", title: "Lonesome Highway", message: "Phoenix, Arizona", pic: "highway").frame(height: 500, alignment: .leading)
                 HighlightView(catagory: "Tanquil", title: "Okanagan Lake", message: "Kelowna, British Columbia", pic: "lake").frame(height: 500, alignment: .leading)
                 HighlightView(catagory: "Crisp", title: "Moraine Lake", message: "Banff, Alberta", pic: "crisp").frame(height: 500, alignment: .leading)
-                
+                HighlightView(catagory: "Stunning", title: "Eiffel Tower", message: "Paris, France", pic: "paris").frame(height: 500, alignment: .leading)
+                HighlightView(catagory: "Inspiring", title: "Mount Everest", message: "Napal/China", pic: "everest").frame(height: 500, alignment: .leading)
+                HighlightView(catagory: "Home", title: "Hopewell Rocks", message: "New Brunswick, Canada", pic: "hopewell").frame(height: 500, alignment: .leading)
     }
    }
  }
